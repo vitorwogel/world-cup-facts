@@ -1,3 +1,29 @@
+.menu{
+  padding: 10px 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  border: 1px solid gray;
+  max-width: fit-content;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card-header{
+  text-align: center;
+}
+
+.card-body ul{
+  list-style: none;
+}
+
+.card-body ul li{
+  margin: 10px 0;
+}
+
 .App {
   text-align: center;
 }
