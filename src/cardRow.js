@@ -1,12 +1,13 @@
 function cards(){
+
     return(
-        <div class="cards-container">
-            <div class="card">
-                <div class="card-header">
-                    <h4>Group A{}</h4>
+        <div className="cards-container">
+            <div className="card">
+                <div className="card-header">
+                    <h4>Group A</h4>
                 </div>
                 <hr/>
-                <div class="card-body">
+                <div className="card-body">
                     <ul>
                         <li>
                             Lorem
@@ -23,7 +24,7 @@ function cards(){
                     </ul>
                 </div>
                 <hr/>
-                <div class="card-footer">
+                <div className="card-footer">
                     <span>Matches and Stats</span>
                 </div>
             </div>
